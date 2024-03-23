@@ -13,7 +13,7 @@ contract Pills is ERC721 {
     address owner;
     // Structs
     // Constants, public variables
-    uint constant maxSupply = 5; // max number of tokens
+    uint constant maxSupply = 50; // max number of tokens
     uint public totalSupply = 0; // number of tokens minted
     uint public mintPrice = 0.0005 ether;
 
